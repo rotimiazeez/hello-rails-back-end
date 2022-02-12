@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 5.times do |i|
-	Greeting.create message: "Hello, ##{i}!"
+	Greeting.create message: "Hello World #{i}!"
 end
